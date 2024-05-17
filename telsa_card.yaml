@@ -13,7 +13,7 @@ cards:
       type: custom:stack-in-card
       cards:
         - type: picture-elements
-          image: /local/Tesla/images/models/3/red/baseWide.jpg
+          image: /local/Tesla/images/models/3/red/base.jpg
           entity: button.terrance_force_data_update
           elements:
             - type: state-label
@@ -99,7 +99,7 @@ cards:
                     left: 50.9%
                     width: 298px
                     height: 298px
-                  image: /local/Tesla/images/models/3/red/baseChargeportOpened.jpg
+                  image: /local/Tesla/images/models/3/red/base_charge_port_opened.jpg
             - type: image
               title: Frunk
               image: /local/Tesla/images/buttons/Tesla_Frunk_Closed.jpg
@@ -127,7 +127,7 @@ cards:
                     left: 50.9%
                     width: 288px
                     height: 288px
-                  image: /local/Tesla/images/models/3/red/baseFrunkOpened.jpg
+                  image: /local/Tesla/images/models/3/red/base_frunk_opened.jpg
             - type: conditional
               conditions:
                 - entity: cover.terrance_charger_door
@@ -396,7 +396,7 @@ cards:
         - type: horizontal-stack
           cards:
             - type: picture-elements
-              image: /local/Tesla/images/models/3/red/controlsBackground.jpg
+              image: /local/Tesla/images/models/3/red/controls_background.jpg
               entity: button.terrance_force_data_update
               elements:
                 - type: state-label
@@ -506,7 +506,7 @@ cards:
           cards:
             - type: picture-elements
               image: >-
-                /local/Tesla/images/models/3/red/climateBackground_Fire8HD.jpg
+                /local/Tesla/images/models/3/red/climate_background.jpg
               entity: button.terrance_force_data_update
               elements:
                 - type: image
